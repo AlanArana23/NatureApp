@@ -37,21 +37,21 @@ fun CardImage(image: String, title: String, description: String) {
             contentDescription = "CardImage",
             modifier = Modifier
                 .fillMaxWidth()
-                .height(150.dp),
+                .height(200.dp),
             contentScale = ContentScale.Crop
         )
         Column (
             modifier = Modifier
-                .padding(10.dp)
+                .padding(20.dp)
         ){
             Text(
                 text = title,
-                fontSize = 16.sp,
+                fontSize = 23.sp,
                 fontWeight = FontWeight.Bold,
             )
             Text(
                 text = description,
-                fontSize = 12.sp,
+                fontSize = 15.sp,
             )
         }
 
